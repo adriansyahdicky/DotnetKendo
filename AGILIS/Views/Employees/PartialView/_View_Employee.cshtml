@@ -1,0 +1,135 @@
+﻿
+<div id="EmployeeViewModals" class="modal fade" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="static" data-keyboard="false">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title"></h4>
+            </div>
+            <div class="modal-body">
+                <div class="form-horizontal">
+
+                    <div class="col-lg-12">
+                        <div class="col-lg-6">
+                            <div class="pull-left">
+                                <div class="row-fluid">
+                                    <div class="form-group">
+                                        <label class="col-sm-4 control-label mandatory">FirstName : </label>
+                                        <div class="col-sm-2">
+                                            <input style="width:250px;" type="text" name="FirstName" maxlength="20" class="form-control required" data-bind="value: FirstName" oninput="onChangeInput(this)" autocomplete="off" disabled="disabled"/>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row-fluid">
+                                    <div class="form-group">
+                                        <label class="col-sm-4 control-label mandatory">LastName : </label>
+                                        <div class="col-sm-2">
+                                            <input style="width:250px;" type="text" name="LastName" maxlength="20" class="form-control required" data-bind="value: LastName" oninput="onChangeInput(this)" autocomplete="off" disabled="disabled"/>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row-fluid">
+                                    <div class="form-group">
+                                        <label class="col-sm-4 control-label mandatory">NIK : </label>
+                                        <div class="col-sm-2">
+                                            <input style="width:250px;" type="text" name="NIK" maxlength="6" class="form-control required" data-bind="value: NIK" oninput="onChangeInput(this)" autocomplete="off" disabled="disabled"/>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row-fluid">
+                                    <div class="form-group">
+                                        <label class="col-sm-4 control-label mandatory">Department : </label>
+                                        <div class="col-sm-2">
+                                            <input style="width:250px;" type="text" name="Department" class="form-control required" data-bind="value: Department" oninput="onChangeInput(this)" autocomplete="off" disabled="disabled"/>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row-fluid">
+                                    <div class="form-group">
+                                        <label class="col-sm-4 control-label mandatory">Job Title : </label>
+                                        <div class="col-sm-2">
+                                            <input style="width:250px;" type="text" name="JobTitle" class="form-control required" data-bind="value: JobTitle" oninput="onChangeInput(this)" autocomplete="off" disabled="disabled"/>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row-fluid">
+                                    <div class="form-group">
+                                        <label class="col-sm-4 control-label mandatory">Gender : </label>
+                                        <div class="col-sm-2">
+                                            <input style="width:250px;" type="text" name="Gender" class="form-control required" data-bind="value: Gender" oninput="onChangeInput(this)" autocomplete="off" disabled="disabled"/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-lg-6">
+
+                            <div class="pull-left">
+                                <div class="row-fluid">
+                                    <div class="form-group">
+                                        <label class="col-sm-4 control-label mandatory">Place Of Birth : </label>
+                                        <div class="col-sm-2">
+                                            <input style="width:250px;" type="text" name="PlaceOfBirth" maxlength="30" class="form-control required" data-bind="value: PlaceOfBirth" oninput="onChangeInput(this)" autocomplete="off" disabled="disabled"/>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row-fluid">
+                                    <div class="form-group">
+                                        <label class="col-sm-4 control-label mandatory">Date Of Birth : </label>
+                                        <div class="col-sm-2">
+                                            <input style="width:250px;" type="text" name="DateOfBirth" maxlength="30" class="form-control required" data-bind="value: DateOfBirth" oninput="onChangeInput(this)" autocomplete="off" disabled="disabled"/>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row-fluid">
+                                    <div class="form-group">
+                                        <label class="col-sm-4 control-label mandatory">Hires Date : </label>
+                                        <div class="col-sm-2">
+                                            <input style="width:250px;" type="text" name="HiresDate" maxlength="30" class="form-control required" data-bind="value: HiresDate" oninput="onChangeInput(this)" autocomplete="off" disabled="disabled"/>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row-fluid">
+                                    <div class="form-group">
+                                        <label class="col-sm-4 control-label mandatory">Email : </label>
+                                        <div class="col-sm-2">
+                                            <input style="width:250px;" type="email" name="Email" maxlength="30" class="form-control required" data-bind="value: Email" oninput="onChangeInput(this)" autocomplete="off" disabled="disabled"/>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row-fluid">
+                                    <div class="form-group">
+                                        <label class="col-sm-4 control-label mandatory">Phone : </label>
+                                        <div class="col-sm-2">
+                                            <input style="width:250px;"  type="text" name="Phone" maxlength="20" class="form-control required" data-bind="value: Phone" oninput="onChangeInput(this)" autocomplete="off" disabled="disabled"/>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row-fluid">
+                                    <div class="form-group">
+                                        <label class="col-sm-4 control-label mandatory">Address : </label>
+                                        <div class="col-sm-2">
+                                            <textarea style="width:250px;" class="form-control"  name="Address" data-bind="value: Address" oninput="onChangeInput(this)" autocomplete="off" disabled="disabled"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+            <div class="modal-footer">
+                @*<button type="button" id="btnAddUser" class="btn btn-primary" data-bind="click:saveMenu, text: isNew ? 'Save' : 'Update'">Save changes</button>
+                <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>*@
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+

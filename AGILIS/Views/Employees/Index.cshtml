@@ -1,0 +1,44 @@
+﻿@using AGILIS.Config
+
+@{
+    ViewBag.Title = "Employees";
+    Layout = "~/Views/Shared/_mainView.cshtml";
+}
+<div class="container-fluid">
+    <form>
+        <div class="row">
+            <div class="form-group col-md-3">
+                <label>Search</label>
+                <input id="search_all" type="text" class="form-control" style="width: 100%" />
+            </div>
+        </div>
+    </form>
+</div>
+
+<div class="container-fluid">
+    <div class="col-md-12" id="gridview"></div>
+</div>
+
+<script id="delete-confirmation" type="text/x-kendo-template">
+    <p class="delete-message">Are you sure want to delete this record?</p>
+
+    <div align="center">
+        <button class="delete-confirm k-button">Yes</button>
+        <button href="" class="delete-cancel k-button">No</button>
+    </div>
+</script>
+
+@Html.Partial("PartialView/_Add_Edit_Employee")
+@Html.Partial("PartialView/_View_Employee")
+
+
+<style>
+    .k-grid .k-grid-header .k-header {
+        text-align: center;
+    }
+</style>
+
+@section Scripts{
+    @Scripts.Render(Url.VersionedContent("~/Scripts/AppScripts/Employees.js"))
+}
+

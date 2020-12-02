@@ -1,0 +1,12 @@
+E:\LatihanDicky\AGILIS_TEST\AGILIS\AGILIS_Logic\bin\Debug\AGILIS_Logic.dll.config
+E:\LatihanDicky\AGILIS_TEST\AGILIS\AGILIS_Logic\bin\Debug\AGILIS_Logic.dll
+E:\LatihanDicky\AGILIS_TEST\AGILIS\AGILIS_Logic\bin\Debug\AGILIS_Logic.pdb
+E:\LatihanDicky\AGILIS_TEST\AGILIS\AGILIS_Logic\bin\Debug\EntityFramework.dll
+E:\LatihanDicky\AGILIS_TEST\AGILIS\AGILIS_Logic\bin\Debug\EntityFramework.SqlServer.dll
+E:\LatihanDicky\AGILIS_TEST\AGILIS\AGILIS_Logic\bin\Debug\EntityFramework.xml
+E:\LatihanDicky\AGILIS_TEST\AGILIS\AGILIS_Logic\bin\Debug\EntityFramework.SqlServer.xml
+E:\LatihanDicky\AGILIS_TEST\AGILIS\AGILIS_Logic\obj\Debug\AGILIS_Logic.csprojAssemblyReference.cache
+E:\LatihanDicky\AGILIS_TEST\AGILIS\AGILIS_Logic\obj\Debug\AGILIS_Logic.csproj.CoreCompileInputs.cache
+E:\LatihanDicky\AGILIS_TEST\AGILIS\AGILIS_Logic\obj\Debug\AGILIS_Logic.csproj.CopyComplete
+E:\LatihanDicky\AGILIS_TEST\AGILIS\AGILIS_Logic\obj\Debug\AGILIS_Logic.dll
+E:\LatihanDicky\AGILIS_TEST\AGILIS\AGILIS_Logic\obj\Debug\AGILIS_Logic.pdb
